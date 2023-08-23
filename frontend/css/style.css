@@ -1,0 +1,234 @@
+.nav-link{
+  color: rgb(255, 255, 255);
+  font-size: 19px;
+ 
+}
+.navbar{
+  background-color:#232323;
+  color: #fff;
+  font-family: 'Anek Latin', sans-serif;
+  font-size: 17px;
+}
+.nav-link:hover{
+  color:#FFDD65;
+}
+
+html body {
+  background-color:#0c0c0ced;
+
+}
+.brand{
+  font-size: 35px;
+  text-decoration: none;
+}
+
+
+
+.img1{
+
+  border-radius: 35px;
+  height: 560px;
+  
+}
+.heading{
+  color: #FFDD65;
+  font-family: 'Anek Latin', sans-serif;
+  font-size: 60px;
+}
+.wrapper {
+  box-sizing: border-box;
+  margin: 1rem auto 2rem;
+  padding: 1rem;
+  height: 560px;
+  width: 500px;
+  
+  background: linear-gradient(#222, #222), 
+  linear-gradient(to right, #ffdd65 2.76%, #ffaa5c 29.66%, #ff49c0 61%, #8e59ff 99.93%);
+  border: 9px solid transparent;
+  border-radius: 22px;
+  background-repeat: no-repeat;
+  background-origin: padding-box, border-box;
+  box-shadow: 2px 2px 20px  #8e59ff ;
+
+}
+.subhead{
+
+  font-family: 'Anek Latin', sans-serif;
+  font-size: 19px;
+  
+}
+
+.bn30 {
+  border: 5em;
+  cursor: pointer;
+  outline: none;
+  font-size: 16px;
+  -webkit-transform: translate(0);
+  transform: translate(0);
+  background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+  padding: 0.7em 2em;
+  border-radius: 65px;
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
+  -webkit-transition: box-shadow 0.25s;
+  transition: box-shadow 0.25s;
+  color: white;
+}
+
+.bn30 .text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+}
+
+.bn30:after {
+  content: "";
+  border-radius: 18px;
+  position: absolute;
+  margin: 4px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  background: #0e0e10;
+}
+
+.bn30:hover {
+  background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
+  box-shadow: 0 12px 24px rgba(128, 128, 128, 0.1);
+}
+
+.bn30:hover .text {
+  background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
+}
+
+
+.logo-head{
+  font-size: inherit;
+  font-size: 25px;
+}
+.post-title{
+  color: #fff;
+
+}
+.post-subtitle:hover{
+  color: #a39a92;
+  
+}
+.post-subtitle{
+  color: #fff;
+ 
+}
+
+.al:link, a:visited, a:hover, a:active{
+  text-decoration: none;
+}
+.hr-line {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 2px;
+  border-top: 1px solid rgb(223, 217, 217);
+}
+.caption1{
+  color: rgb(199, 191, 191);
+}
+.gokul{
+  color: #FFDD65;
+}
+.gokul:hover{
+  color: #a89f7e;
+}
+.latest-post{
+  font-size: 70px;
+  font-family: Anek Latin', sans-serif';
+  color: #FFDD65;
+}
+.about-img{
+  
+  height: 350px;
+  border-radius: 16px;
+}
+
+.form-border{
+  height: 450px;
+  background-color: #0e0e10;
+
+  box-shadow: 5px 1px 12px #5f5e5e;
+}
+.contact-form {
+  padding: 30px 40px;
+  background-color: #3c3b3b68;
+  border-radius: 12px;
+  max-width: 400px;
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+.contact-form .form-input,
+.form-text-area {
+  background-color: #f0f4f5;
+  height: 50px;
+  padding-left: 16px;
+}
+
+.contact-form .form-text-area {
+  background-color: #f0f4f5;
+  height: auto;
+  padding-left: 16px;
+}
+
+.contact-form .form-control::placeholder {
+  color: #aeb4b9;
+  font-weight: 500;
+  opacity: 1;
+}
+
+.contact-form .form-control:-ms-input-placeholder {
+  color: #aeb4b9;
+  font-weight: 500;
+}
+
+.contact-form .form-control::-ms-input-placeholder {
+  color: #aeb4b9;
+  font-weight: 500;
+}
+
+.contact-form .form-control:focus {
+  border-color: #e0c511;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.07), 0 0 8px #efc428;
+}
+
+.contact-form .title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+}
+
+.contact-form .description {
+  color: #d4d7d9;
+  font-size: 14px;
+  text-align: center;
+}
+
+.contact-form .submit-button-wrapper {
+  text-align: center;
+}
+
+.contact-form .submit-button-wrapper input {
+  border: none;
+  border-radius: 4px;
+  background-color: #f2d532;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 60px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.contact-form .submit-button-wrapper input:hover {
+  background-color: #d83d8b;
+}

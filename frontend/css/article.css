@@ -1,0 +1,42 @@
+.nav-link{
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+   
+  }
+  .navbar{
+    background-color:#232323;
+    color: #fff;
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 17px;
+  }
+  .nav-link:hover{
+    color:#FFDD65;
+  }
+  
+
+  .brand{
+    font-size: 35px;
+    text-decoration: none;
+  }
+  .post-img1{
+    height: 20px;
+  }
+  
+.para{
+  font-size: 20px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  color: #0a0a0a;
+}
+.heading{
+  font-size: 33px;
+}
+.subhead{
+  font-size: 28px;
+}
+.para-2{
+  font-size: 22px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 450;
+  color: #0a0a0a;
+}
